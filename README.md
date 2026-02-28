@@ -16,7 +16,12 @@ Based on these combined parameters, the model predicts a binary label: **1 (Nega
 - `src/`: Core Python source code.
   - `export_model.py`: Script to train and export the `model.joblib` artifact.
 
+## Dataset
+Due to the large size of the EAV dataset (EEG, Video, and Audio recordings), the raw data files are not included in this repository.
+If you wish to re-train the model, please download the dataset from its source and place it into the `data/raw/EAV/` directory:
+- **Download Link**: [Insert Database/Dataset Link Here]
+
 ## Setup and Running
-1. Install requirements using `pip install -r requirements.txt`. (Soon to be added)
+1. Install requirements using `pip install -r requirements.txt`.
 2. Run `python src/export_model.py` to train and export the fallback model locally.
-3. Start the Streamlit frontend with `streamlit run app.py` (Soon to be added).
+3. Start the Streamlit frontend with `streamlit run app.py`.
