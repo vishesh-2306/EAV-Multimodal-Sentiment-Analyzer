@@ -19,7 +19,7 @@ Based on these combined parameters, the model predicts a binary label: **1 (Nega
 ## Dataset
 Due to the large size of the EAV dataset (EEG, Video, and Audio recordings), the raw data files are not included in this repository.
 If you wish to re-train the model, please download the dataset from its source and place it into the `data/raw/EAV/` directory:
-- **Download Link**: [Insert Database/Dataset Link Here]
+- **Download Link**: [EAV Dataset on Zenodo](https://zenodo.org/records/13799131?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjEyMDcwZmIzLTY4NmItNDdmZi04ZWM4LWYwZmZkMjExMWZjNyIsImRhdGEiOnt9LCJyYW5kb20iOiIyYzVlMzVmMThlMzI0Zjc2YjA1NGMyM2U0YmNiOWNjZiJ9.ubtQU4wzEjo_QEaiUC3Jrbp0N8c59rSzQ933PXLNpieraib5_r5s-AvyS115kwCfu01BbvMPaOgSOO887hRdBw)
 
 ## Setup and Running
 1. Install requirements using `pip install -r requirements.txt`.
